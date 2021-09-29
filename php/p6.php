@@ -10,11 +10,7 @@
         $arr[$i] = $j;
         
     }
-    echo "array  :";
-    for($i=0;$i<$a;$i++)
-    {
-        echo $arr[$i]."     ";
-    }
+    
     $s = (int)readline("enter a number to search in array :");
     
     $found = 0;
